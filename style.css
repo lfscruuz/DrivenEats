@@ -1,0 +1,40 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 44px;
+}
+
+.webpage{
+    width: 414px;
+    margin: 0 auto;
+}
+
+.top{
+    width: 414px;
+    height: 92px;
+    background-color: #CF2B2B;
+    position: fixed;
+    top: 0%;
+    padding-left: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top p{
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}
+
+.bottom{
+    height: 92px;
+    width: 414px;
+    border: solid;
+    position: fixed;
+    bottom: 0%;
+}
