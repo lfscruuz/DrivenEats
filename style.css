@@ -16,6 +16,7 @@ h2{
     font-family: 'Righteous', cursive;
     font-size: 27px;
     margin-bottom: 17px;
+    margin-left: 19px;
 }
 
 h3{
@@ -38,10 +39,13 @@ img{
     width: 144px;
 }
 
+
+
 .webpage{
     width: 414px;
-    margin: 0 auto;
     background-color: #e5e5e5;
+    padding-bottom: 16px;
+    margin: 0 auto;
 }
 
 .top{
@@ -69,7 +73,6 @@ img{
 .sections{
     padding-top: 31px;
     margin: 92px 0;
-    width: 414px;
 }
 
 .menu{
@@ -94,6 +97,18 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: solid #32B72F;
+    border: hidden;
+}
+
+.icon{
+    color: #32B72F;
+    display: none;
+}
+
+.priceAndIcon{
+    display: flex;
+    justify-content: space-between;
 }
 
 .option p{
@@ -103,12 +118,12 @@ img{
 .base{
     height: 92px;
     width: 414px;
-    background-color: white;
     position: fixed;
     bottom: 0%;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 
 button{
@@ -119,7 +134,7 @@ button{
     background-color: #cbcbcb;
 }
 
-.base p{
+button p{
     font-size: 20px;
     font-weight: 400;
     color: white;
