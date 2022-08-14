@@ -105,14 +105,14 @@ img{
    padding: 9px;
 }
 
-.checkmark{
+/* .checkmark{
     display: none;
 }
 
 .greenCheckmark{
     color: #32B72F;
     display: initial;
-}
+} */
 
 .priceAndIcon{
     display: flex;
