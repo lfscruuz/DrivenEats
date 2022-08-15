@@ -36,6 +36,12 @@ p{
 
 img{
     width: 144px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    background-color: #32B72F;
 }
 
 .webpage{
@@ -134,16 +140,37 @@ img{
     background-color: white;
 }
 
-button{
+.greyButton{
     width: 364px;
     height: 61px;
     border: transparent;
     border-radius: 50px;
     background-color: #cbcbcb;
-    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-button p{
+.greyButton p{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.greenButton{
+    width: 364px;
+    height: 61px;
+    border: transparent;
+    border-radius: 50px;
+    background-color: #32B72F;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.greenButton p{
     font-size: 20px;
     font-weight: 400;
     color: white;
